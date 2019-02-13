@@ -1,0 +1,15 @@
+{
+  "name": "ben-sun-static",
+  "version": "1.0.0",
+  "description": "Personal Static Website",
+  "main": "index.js",
+  "author": "Benjamin Sun <benjamin.sun@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^0.7.1"
+  }
+}
